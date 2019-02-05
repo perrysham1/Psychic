@@ -1,0 +1,23 @@
+#wins {
+    color: blue;
+}
+
+#losses {
+    color: blue;
+}
+
+#guessesLeft {
+    color: blue;
+}
+
+#guessesSoFar {
+    color: blue;
+}
+
+#youChose {
+    color: red;
+}
+
+#computerChose {
+    color: red;
+}

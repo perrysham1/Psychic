@@ -20,11 +20,11 @@ document.onkeyup = function(event) {
 
 // Correct guess
 if (userGuess === computerGuess) {
-    wins++;
+    wins++ && guessesSoFar++;
 
 // Incorrect guess
 } else {
-    losses++;
+    losses++ && guessesSoFar++;
 }
 
 // Display the user and computer guesses
